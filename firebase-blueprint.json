@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "valet_tickets": {
+      "title": "valet_tickets",
+      "description": "Real-time valet tickets and check-in entries",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "plate": { "type": "string" },
+        "color": { "type": "string" },
+        "brand": { "type": "string" },
+        "model": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "tableNumber": { "type": "string" },
+        "keyTag": { "type": "string" },
+        "sessionId": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "requestedAt": { "type": "string" },
+        "readyAt": { "type": "string" },
+        "deliveredAt": { "type": "string" }
+      },
+      "required": ["id", "plate", "status", "createdAt"]
+    },
+    "cars": {
+      "title": "cars",
+      "description": "Valet vehicle tickets and check-in entries",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "plate": { "type": "string" },
+        "color": { "type": "string" },
+        "brand": { "type": "string" },
+        "model": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "tableNumber": { "type": "string" },
+        "keyTag": { "type": "string" },
+        "sessionId": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "requestedAt": { "type": "string" },
+        "readyAt": { "type": "string" },
+        "deliveredAt": { "type": "string" }
+      },
+      "required": ["id", "plate", "status", "createdAt"]
+    },
+    "settings": {
+      "title": "settings",
+      "description": "Global application configuration and authorized devices",
+      "type": "object",
+      "properties": {
+        "adminPasscode": { "type": "string" },
+        "devices": { "type": "array" }
+      },
+      "required": ["adminPasscode"]
+    }
+  }
+}

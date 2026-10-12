@@ -1,0 +1,6 @@
+{
+  "name": "GoValet",
+  "description": "Dual-website restaurant valet platform featuring a dedicated mobile customer ticket pass website and a real-time valet staff operations terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
